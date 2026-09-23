@@ -37,6 +37,172 @@ header{
     padding: 15px 30px;
 
     .left-content{
+        display: flex;
+        justify-content: center;
+
+        .image{
+            display: flex;
+            width: 55%;
+            height: 80%;
+        }
+    }
+
+    .right-content{
+        flex: auto;
+        flex-direction: column;
+        gap: 15px;
+
+        .head-title{
+            font-size: xx-small;
+        }
+
+        .title{
+            font-family: "Cormorant Garamond", serif;
+            font-size: xx-large;
+            max-width: 250px;
+        }
+
+        .description{
+            font-size: small;
+            margin-bottom: 30px;
+            max-width: 400px;
+        }
+
+        .btn-shop{
+            display: flex;
+            width: 180px;
+            height: 40px;
+            text-align: center;
+            background-color: #4A403A;
+            color: #FFF9F5;
+            border: none;
+            border-radius: 50px;
+            font-size: small;
+            padding-top: 15px;
+            justify-content: center;
+        }
+    }
+
+    
+}
+
+
+.best-sellers{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    background-color: #FFF9F5;
+    text-align: center;
+    align-items: center;
+
+    .favorites{
+        font-size: x-small;
+    
+    }
+    .principal-title{
+        font-family: "Cormorant Garamond", serif;
+        font-size: xx-large;
+        max-width: 250px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .flowers-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 15px 25px;
+        height: 45%;
+    }
+
+    .flower-card{
+        background-color: #fff;
+        text-align: center;
+        border: 1px solid #aaa;
+        height: 150px;
+        width: 200px;
+        p{
+            font-size: 16px;
+        }
+        strong{
+            color: #000;
+        }
+        .image{
+            padding: 15px;
+            width: 65%;
+            height: 50%;
+            
+        }
+    }
+
+    .btn-addCart{
+        background-color: #F8EFEC;
+        display: flex;
+        width: 180px;
+        height: 40px;
+        text-align: center;
+        border: none;
+        border-radius: 50px;
+        font-size: small;
+        padding-top: 15px;
+        justify-content: center;
+    }
+}
+
+.down-navegation{
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 30px;
+    font-weight: bold;
+    background-color: #c7c7c7;
+    
+    ul{
+        display: flex;
+        gap: 35px;
+        list-style: none;
+    }
+}
+body{
+    margin: 0;
+    font-family: "Inter", serif;
+    color: #4A403A;
+}
+
+header{
+    background-color: #F8EFEC;
+    color: #71806C;
+
+}
+
+.header-navegation{
+    display:flex; 
+    justify-content: space-between; 
+    align-items:center;
+    padding-left: 15px;
+    padding-right: 30px;
+    
+    .web{
+        font-size: 25px;
+        font-family: "Cormorant Garamond", serif;
+    }
+
+    .web-desc{
+        font-size: xx-small;
+    }
+    ul{
+        display: flex;
+        gap: 35px;
+        list-style: none;
+    }
+}
+
+.top-layout{
+    display: flex;
+    padding: 15px 30px;
+
+    .left-content{
         
         .image{
             padding: 15px;
